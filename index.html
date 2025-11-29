@@ -30,6 +30,7 @@
   <script type="module" src="js/customjs/projects.js"></script>
   <script type="module" src="js/customjs/skills.js"></script>
   <script type="module" src="js/customjs/externalLink.js"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -50,10 +51,10 @@
             <ul>
               <li><a href="#" data-nav-section="about">About</a></li>
               <li><a href="#" data-nav-section="skills">Skills</a></li>
-              <li><a href="#" data-nav-section="projects">Projects</a></li>
               <li>
                 <a href="#" data-nav-section="experience">Work Experience</a>
               </li>
+              <li><a href="#" data-nav-section="projects">Projects</a></li>
               <li><a href="#" data-nav-section="education">Education</a></li>
               <li><a href="#" data-nav-section="contact">Contact</a></li>
             </ul>
@@ -73,15 +74,16 @@
                 <p>
                   Hello there &#128075; &nbsp; Welcome to my portfolio. <br />
                   <br />
-                  I'm Md Ishtiyaque Ahmad, a computer science student at NIT
-                  Patna. I have a passion for all things in tech and consider
-                  myself a curious and enthusiastic student. <br />
-                  &emsp;&emsp; Apart from coding, I love to play Sudoku &
-                  Cricket and listen to music. As a lifelong learner, I'm
-                  always seeking new knowledge and experiences to broaden my
-                  perspective and enhance my skills. <br />
-                  <br />
-                  Thanks for taking the time to learn a little about me!
+                  I'm Md Ishtiyaque Ahmad. My journey started as a computer science student at 
+                  NIT Patna, and today I am a Software Engineer leveraging technology to solve 
+                  complex healthcare challenges at Optum. <br> <br> My passion lies in architecting scalable
+                  solutions. I have successfully migrated systems to microservices 
+                  using C#/.NET and Java, and engineered specialized X12 parsers for real-time 
+                  transactions. My dedication to high-impact work, such as the 
+                  Denial Prediction API, has been recognized with a Diamond award. <br>
+                  As a lifelong learner, I back my experience with an AWS Certification 
+                  and a competitive programming background (CodeChef Rating: 1712). <br> <br>
+                  Beyond the screen, I recharge by playing Sudoku, Cricket, and listening to music.
                 </p>
               </div>
             </div>
@@ -126,20 +128,7 @@
               </div>
             </div>
         </section>
-        <!--------------------[START] Projects-------------------------->
-        <section class="colorlib-projects no-print" data-section="projects">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-              <div class="">
-                <h1>Projects</h1>
-              </div>
-            </div>
-            <div id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
-              <ul id="projects" class="submenu"></ul>
-            </div>
-          </div>
-        </section>
-        <!--------------------[END] Projects---------------------------->
+        
         <!---------------Work Experience----------->
         <section class="colorlib-experience" data-section="experience">
           <div class="colorlib-narrow-content">
@@ -151,6 +140,81 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="timeline-centered">
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>
+                          <a href="#">Optum</a>
+                          <span>Mar 2025 - Present</span>
+                        </h2>
+                        <p class="finalText">
+                          <strong>Software Engineer</strong><br />
+                          <div class="team_name-prj_tech_stack">
+                            <span class="team_name">Cloud Warriors</span>
+                            <span> | C#/.NET, Java, AWS, YML, X12, GitHub Action, CodeQL, SONAR</span>
+                          </div>
+                          <div>
+                            <ul>
+                              <li>
+                                <b>RPA System Migration</b>: Strategic technical migration of Revenue Performance Advisor (RPA) functionalities into the
+                                Assurance platform, starting with a comprehensive Gap Analysis and design spikes. Architected the transition by mapping
+                                legacy functionalities to a new microservices architecture, successfully ensuring seamless integration and feature parity.
+                                Additionally, led the implementation of a specialized X12 276 parser, delivering robust work batching capabilities for
+                                real-time eligibility and claim status inquiry transactions (270, 271, 276, and 277). Contributed to the creation and
+                                deployment of core AWS infrastructure (including Lambda, S3, and Secrets Manager) to support the ECG2 file delivery
+                                pipeline.
+                              </li>
+                              <li>
+                                <b>Security Engineering</b>: Executed a Shift-Left security strategy by remediating critical vulnerabilities identified by
+                                  CodeQL. Removed hardcoded JARs and implemented Artifactory for secure dependency management across multiple
+                                  repositories. Maintained code quality standards, focused on maintainability, reliability, and adherence to SONAR quality
+                                  gate matrix. Collaborated with QA members to perform security testing, continuous validation of fixes and documented
+                                  changes to ensure traceability, audit readiness, and knowledge sharing.
+                              </li>
+                            </ul>
+                          </div>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div class="timeline-entry-inner">
+                      <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                      </div>
+                      <div class="timeline-label">
+                        <h2>
+                          <a href="#">Optum</a>
+                          <span>Jan 2024 - Mar 2025</span>
+                        </h2>
+                        <p class="finalText">
+                          <strong>Associate Software Engineer</strong><br />
+                          <div class="team_name-prj_tech_stack">
+                            <span class="team_name">Yin</span>
+                            <span> | C#/.NET, Java, AWS, X12, TeamCity, Black Duck, CodeQL</span>
+                          </div>
+                          <div>
+                            <ul>
+                              <li>
+                                <b>Denial Prediction API and UI</b>: Delivered a new implementation for the Denial Prediction API, Middleware services
+                                  and UI of 45 story points work ahead of schedule, utilizing JQuery, JavaScript, and C#/.NET to build secure endpoints
+                                  and user-friendly interfaces. Received Diamond recognition for outstanding contribution.
+
+                              </li>
+                              <li>
+                                <b>RPA Security Enhancements</b>: Upgraded critical dependencies and resolved authentication gaps flagged by Black Duck
+                                  and CodeQL, directly contributing to an increased Security MBO score for the Yin team. Developed a heightened
+                                  capability to identify vulnerabilities and take proactive measures to secure systems.
+                              </li>
+                            </ul>
+                          </div>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
                   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div class="timeline-entry-inner">
                       <div class="timeline-icon color-1">
@@ -209,6 +273,20 @@
             </div>
           </div>
         </section>
+        <!--------------------[START] Projects-------------------------->
+        <section class="colorlib-projects no-print" data-section="projects">
+          <div class="colorlib-narrow-content">
+            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+              <div class="">
+                <h1>Projects</h1>
+              </div>
+            </div>
+            <div id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
+              <ul id="projects" class="submenu"></ul>
+            </div>
+          </div>
+        </section>
+        <!--------------------[END] Projects---------------------------->
         <!---------------Education----------->
         <section class="colorlib-education" data-section="education">
           <div class="colorlib-narrow-content">

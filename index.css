@@ -1,0 +1,11 @@
+.team_name-prj_tech_stack{
+    display: flex;
+    font-size: small;
+}
+.team_name{
+    margin: 0;
+    font-weight: bold;
+    display: inline-block;
+    -ms-wrap-flow: none;
+    text-wrap-mode: nowrap;
+}
